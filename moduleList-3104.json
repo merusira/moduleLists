@@ -2,7 +2,7 @@
   {
     "name": "shinra-meter-omni",
     "servers": ["https://raw.githubusercontent.com/merusira/shinra-meter-omni/master/"],
-    "supportUrl": "https://github.com/neowutran/ShinraMeter/issues",
+    "supportUrl": "https://github.com/merusira/shinra-meter-omni/issues",
     "author": "Foglio, Gl0, neowutran and others",
     "description": "Shinra DPS meter for Classic TERA.",
     "disableAutoUpdate": false,
