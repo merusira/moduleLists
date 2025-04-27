@@ -251,5 +251,37 @@
     "keywords": [
       "network"
     ]
-  }
+  },
+  {
+    "disableAutoUpdate": false,
+    "name": "backstabs-manager",
+    "options": {
+        "cliName": "BM",
+        "guiName": "Backstabs Manager"
+    },
+    "author": "SaltyMonkey",
+    "description": "Blocking backstabs from going in cd when activated without target",
+    "servers": ["https://raw.githubusercontent.com/SaltyMonkey/backstabs-manager/master/"],
+    "supportUrl": "https://github.com/SaltyMonkey/backstabs-manager/issues"
+  },  
+  {
+    "name": "Tera-Pkt-Item-Skill-Logger",
+    "title": "Tera Pkt Item Skill Logger",
+    "author": "<font color='#297229'>merusira</font>",
+    "description": "Logs all incoming and outgoing network packets to the chat and parses to a file. Includes item and skill logging with names and IDs.",
+    "version": "<font color='#800000'>1.1.0</font>",
+    "servers": ["https://raw.githubusercontent.com/merusira/tera-pkt-item-skill-logger/master/"],
+    "supportUrl": "https://github.com/merusira/tera-pkt-item-skill-logger/issues",
+    "dependencies": {
+        "command": "https://raw.githubusercontent.com/tera-toolbox/command/master/module.json"
+    },
+    "options": {
+        "guiName": "<font color='#7558cd'>Pkt Item Skill Logger</font>",
+        "cliName": "<font color='#7558cd'>pkt-item-skill-logger</font>",
+        "settingsVersion": 2,
+		"settingsMigrator": "settings_migrator.js"
+    },
+    "disableAutoUpdate": false,
+    "disabled": false
+}
 ]
