@@ -1,0 +1,244 @@
+[
+  {
+    "disableAutoUpdate": false,
+    "disabled": false,
+    "name": "anti-bodyblock",
+    "author": "Fruit",
+    "description": "Removes allies bodyblock in dungeons.",
+    "version": "1.0",
+    "servers": [
+      "https://raw.githubusercontent.com/tera-private-mods/anti-bodyblock/master/"
+    ],
+    "options": {
+      "guiName": "Anti Bodyblock",
+      "cliName": "Anti Bodyblock"
+    },
+    "keywords": [
+      "network"
+    ]
+  },
+  {
+    "name": "npc-summoner",
+    "author": "HSDN / Salchy",
+    "description": "Summon any NPC (merchant, bank, broker) from anywhere",
+    "options": {
+        "niceName": "NPC Summoner",
+        "settingsVersion": 4,
+        "settingsFile": "config.json",
+        "reloadable": true,
+        "settingsMigrator": "settings_migrator.js"
+    },
+    "servers": ["https://raw.githubusercontent.com/hsdn/npc-summoner/master/"],
+    "disableAutoUpdate": false,
+    "version": "5/1/2022"
+  },
+  {
+    "disableAutoUpdate" : false,
+    "name" : "Clear onscreen messages",
+    "category" : "client",
+    "author" : "SaltyMonkey",
+    "options" : {
+        "guiName" : "Clear screen",
+        "niceName" : "Clear screen"
+    },
+    "servers" : [
+        "https://raw.githubusercontent.com/SaltyMonkey/tera-online-clean-onscreen-messages/master/"
+    ]
+  },
+  {
+    "disableAutoUpdate": false,
+    "name": "exit-instantly",
+    "author": "teralove",
+    "description": "Exit the game without having to wait 10 seconds.",
+    "version": "1/24/2019",
+    "options": {
+      "guiName": "Exit Instantly",
+      "cliName": "Exit Instantly"
+    },
+    "servers": [
+      "https://raw.githubusercontent.com/tera-private-mods/exit-instantly/master/"
+    ],
+    "supportUrl": "https://github.com/teralove/exit-instantly/issues",
+    "keywords": [
+      "network"
+    ]
+  },
+  {
+    "name": "instant-everything",
+    "author": "Caali / Pinkie Pie / m0py / Snug / beng",
+    "description": "Removes the annoying animation and skips the progress bar for enchanting, upgrading, soulbinding, dismantling, and merging items.",
+    "version": "1.0",
+    "servers": ["https://raw.githubusercontent.com/tera-private-mods/instant-everything/master/"],
+    "options": {
+        "cliName": "InstantEverything",
+        "guiName": "InstantEverything",
+        "settingsVersion": 1,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js"
+    },
+    "conflicts": ["instant-enchant","instant-upgrade","instant-soulbind","instant-dismantle","instant-merge"],
+    "disableAutoUpdate": false
+  },
+  {
+    "name": "shinra-toolbox",
+    "servers": ["https://raw.githubusercontent.com/tera-private-mods/shinra-toolbox/master/"],
+    "author": "Foglio, Gl0, neowutran and others",
+    "description": "Shinra DPS meter.",
+    "disableAutoUpdate": false,
+    "keywords": ["client"],
+    "options": {
+        "cliName": "shinra-meter",
+        "guiName": "Shinra Meter"
+    },
+    "dependencies": {
+        "external-interface": "https://raw.githubusercontent.com/tera-private-toolbox/external-interface/master/module.json"
+    }
+  },
+  {
+    "name": "bugfix",
+    "author": "Caali / Pinkie Pie",
+    "description": "Collection of mods that fix some of the most severe client bugs in TERA.",
+    "version": "1.0",
+    "options": {
+        "cliName": "Bugfix",
+        "guiName": "Bugfix"
+    },
+    "servers": ["https://raw.githubusercontent.com/tera-private-toolbox/bugfix/master/"],
+    "conflicts": ["swim-fix", "chat-sanitizer"]
+  },
+  {
+    "disableAutoUpdate": false,
+    "name": "backstabs-manager",
+    "options": {
+        "cliName": "BM",
+        "guiName": "Backstabs Manager"
+    },
+    "author": "SaltyMonkey",
+    "description": "Blocking backstabs from going in cd when activated without target",
+    "servers": ["https://raw.githubusercontent.com/SaltyMonkey/backstabs-manager/master/"],
+    "supportUrl": "https://github.com/SaltyMonkey/backstabs-manager/issues"
+  },
+  {
+    "disableAutoUpdate": false,
+    "options": {
+        "cliName": "NGSP",
+        "guiName": "NGSP (patch 100)"
+    },
+    "servers": ["http://git.dev.hsdn.org/tera-v92/ngsp-v100/raw/master/"],
+    "supportUrl": "DM",
+    "drmKey": "YOUR_DRMKEY_HERE",
+    "name": "ngsp_100",
+    "description": "Description goes here."
+  },
+  {
+    "disableAutoUpdate": false,
+    "name": "fps-utils",
+    "author": "Risenio",
+    "readmePath": "./README.md",
+    "description": "A free script filled with features dedicated to improve your fps.",
+    "contributors": ["Saegusae","codeagon","SerenTera","Kyoukaya","SaltyMonkey","Leyki"],
+    "version": "19",
+    "options": {
+        "cliName": "FPS",
+        "guiName": "Fps Utils",
+        "settingsVersion": 19,
+        "settingsFile": "config.json",
+        "settingsMigrator": "./lib/setting_migration.js"
+    },
+    "servers": ["https://raw.githubusercontent.com/tera-private-mods/fps-utils/master/"]
+  },
+  {
+    "author": "FRÜT & PÅNT",
+    "dependencies": {
+        "ui": "https://raw.githubusercontent.com/HakuryuuDom/ui/master/module.json"
+    },
+    "description": "Costume and appareance changer with in-game UI. Full support for patches 92 and 100, including Menma's TERA (MT) and Asura TERA.",
+    "disableAutoUpdate": false,
+    "name": "unicast",
+    "options": {
+        "guiName": "Unicast (patch 92/100/MT)",
+        "cliName": "Unicast"
+    },
+    "servers": ["https://raw.githubusercontent.com/tera-private-mods/unicast/master/","https://git.teragame.su/tera-private-mods/unicast/raw/master/"]
+  },
+  {
+    "disableAutoUpdate": false,
+    "name": "instant-revive",
+    "author": "Lambda11",
+    "description": "Makes your revive instant",
+    "options": {
+        "niceName": "Instant-Revive",
+        "guiName": "Instant-Revive",
+        "settingsVersion": 1,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js"
+    },
+    "servers": ["https://raw.githubusercontent.com/tera-private-mods/instant-revive/master/"]
+  },
+  {
+    "name": "yarm",
+    "author": "Hail",
+    "version": "1.0.0",
+    "description": "Yet Another Relog Mod. Call it YARM for short!",
+    "disableAutoUpdate": false,
+    "options": {
+        "cliName": "YARM",
+        "guiName": "Yet Another Relog Mod"
+    },
+    "servers": ["https://raw.githubusercontent.com/tera-private-mods/Yet-Another-Relog-Mod/master/"]
+  },
+  {
+    "name": "Tera-Pkt-Item-Skill-Logger",
+    "title": "Tera Pkt Item Skill Logger",
+    "author": "<font color='#297229'>merusira</font>",
+    "description": "Logs all incoming and outgoing network packets to the chat and parses to a file. Includes item and skill logging with names and IDs.",
+    "version": "<font color='#800000'>1.1.0</font>",
+    "servers": ["https://raw.githubusercontent.com/merusira/tera-pkt-item-skill-logger/master/"],
+    "supportUrl": "https://github.com/merusira/tera-pkt-item-skill-logger/issues",
+    "dependencies": {
+        "command": "https://raw.githubusercontent.com/tera-toolbox/command/master/module.json"
+    },
+    "options": {
+        "guiName": "<font color='#7558cd'>Pkt Item Skill Logger</font>",
+        "cliName": "<font color='#7558cd'>pkt-item-skill-logger</font>",
+        "settingsVersion": 2,
+		"settingsMigrator": "settings_migrator.js"
+    },
+    "disableAutoUpdate": false,
+    "disabled": false
+  },
+  {
+    "name": "tera-guide",
+    "options": {
+        "niceName": "Guide",
+        "guiName": "TERA-Guide",
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js",
+        "settingsVersion": 1.19
+    },
+    "author": "HSDN",
+    "description": "The dungeon guide module with TTS notifications. Display hints on screen and drawing zones of bosses attacks and mechanics.",
+    "servers": ["https://raw.githubusercontent.com/hsdn/tera-guide/master/"],
+    "supportUrl": "https://github.com/hsdn/tera-guide/issues",
+    "dependencies": {
+        "tera-guide-core": "https://raw.githubusercontent.com/hsdn/tera-guide-core/master/module.json"
+    },
+    "disableAutoUpdate": false,
+    "version": "3/25/2025"
+  },
+  {
+    "disableAutoUpdate": false,
+    "name": "tera-guide-core",
+    "options": {
+        "niceName": "Guide Core",
+        "guiName": "tera-guide-core"
+    },
+    "author": "HSDN",
+    "description": "TERA-Guide module library.",
+    "servers": ["https://raw.githubusercontent.com/hsdn/tera-guide-core/master/"],
+    "supportUrl": "https://github.com/hsdn/tera-guide/issues",
+    "dependencies": {
+        "library": "https://raw.githubusercontent.com/tera-private-toolbox/library/master/module.json"
+    }
+  }
+]
