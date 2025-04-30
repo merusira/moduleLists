@@ -176,6 +176,12 @@
     ]
   },
   {
+    "servers": ["https://raw.githubusercontent.com/tera-classic-toolbox/library/master/"],
+    "supportUrl": "https://github.com/tera-classic-toolbox/library/issues",
+    "name": "library",
+    "disableAutoUpdate": false
+  },
+  {
     "disableAutoUpdate": false,
     "name": "instant-revive",
     "author": "Lambda11",
