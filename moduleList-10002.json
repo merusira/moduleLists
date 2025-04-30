@@ -162,6 +162,12 @@
     "servers": ["https://raw.githubusercontent.com/tera-private-mods/unicast/master/","https://git.teragame.su/tera-private-mods/unicast/raw/master/"]
   },
   {
+    "servers": ["https://raw.githubusercontent.com/tera-private-toolbox/library/master/"],
+    "supportUrl": "https://github.com/tera-private-toolbox/library/issues",
+    "name": "library",
+    "disableAutoUpdate": false
+  },
+  {
     "disableAutoUpdate": false,
     "name": "instant-revive",
     "author": "Lambda11",
