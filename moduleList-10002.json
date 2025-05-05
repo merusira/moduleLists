@@ -246,5 +246,36 @@
     "dependencies": {
         "library": "https://raw.githubusercontent.com/tera-private-toolbox/library/master/module.json"
     }
-  }
+  },
+  {
+    "author": "<font color='#00FFFF'>Salchy</font>",
+    "description": "translator",
+    "disableAutoUpdate": true,
+    "disabled": false,
+    "donationUrl": "",
+    "name": "translator",
+    "options": {
+        "niceName": "<font color='#FDD017'>translator</font>",
+        "guiName": "<font color='#FDD017'>translator</font>",
+        "reloadable": true,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js",
+        "settingsVersion": 1		
+	},
+    "servers": [""],
+    "supportUrl": "",
+    "version": "<font color='#00FFFF'>1.0.0</font>"
+  },
+  {
+    "servers": ["https://raw.githubusercontent.com/tera-private-toolbox/library/master/"],
+    "supportUrl": "https://github.com/tera-private-toolbox/library/issues",
+    "name": "library",
+	"author": "HSDN",
+	"description": "Backup of HSDN's library module which works with Rival, a zero ping emulation mod for TERA.",
+		"conflicts": [
+        "library"
+    ],
+	"disableAutoUpdate": false,
+    "disabled": false
+ }
 ]
