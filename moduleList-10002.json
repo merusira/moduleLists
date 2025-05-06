@@ -25,18 +25,6 @@
 	"disableAutoUpdate": false,
     "disabled": false
   },
-	"conflicts": [
-        "rival-patch34",
-		"skill-prediction",
-        "ngsp",
-        "ngsp_100",
-        "ngsp_92",
-        "ping-remover",
-        "ping"
-    ],
-	"disableAutoUpdate": false,
-    "disabled": false
-  },
   {
     "disableAutoUpdate": false,
     "disabled": false,
