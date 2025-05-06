@@ -1,5 +1,43 @@
 [
   {
+    "name": "rival-patch100",
+	"title": "Rival",
+	"author": "<font color='#297229'>merusira</font>",
+	"description": "Zero ping emulation for TERA servers running patch ~100.02.",
+    "version": "<font color='#800000'>1.2.7</font>",
+    "servers": ["https://raw.githubusercontent.com/merusira/Rival-patch100/master/"],
+    "supportUrl": "https://github.com/merusira/Rival-patch100/issues",
+    "options": {
+        "niceName": "<font color='#7558cd'>Rival</font>",
+        "guiName": "<font color='#7558cd'>Rival</font>",
+        "cliName": "<font color='#7558cd'>Rival</font>",
+        "reloadable": true
+	},
+	"conflicts": [
+        "rival-patch34",
+		"skill-prediction",
+        "ngsp",
+        "ngsp_100",
+        "ngsp_92",
+        "ping-remover",
+        "ping"
+    ],
+	"disableAutoUpdate": false,
+    "disabled": false
+  },
+	"conflicts": [
+        "rival-patch34",
+		"skill-prediction",
+        "ngsp",
+        "ngsp_100",
+        "ngsp_92",
+        "ping-remover",
+        "ping"
+    ],
+	"disableAutoUpdate": false,
+    "disabled": false
+  },
+  {
     "disableAutoUpdate": false,
     "disabled": false,
     "name": "anti-bodyblock",
