@@ -1,5 +1,32 @@
 [
   {
+    "name": "rival-patch100",
+	"title": "Rival",
+	"author": "<font color='#297229'>merusira</font>",
+	"description": "Zero ping emulation for TERA servers running patch ~100.02.",
+    "version": "<font color='#800000'>1.3.1</font>",
+    "servers": ["https://raw.githubusercontent.com/merusira/Rival-patch100/master/"],
+    "supportUrl": "https://github.com/merusira/Rival-patch100/issues",
+    "options": {
+        "niceName": "<font color='#7558cd'>Rival</font>",
+        "guiName": "<font color='#7558cd'>Rival</font>",
+        "cliName": "<font color='#7558cd'>Rival</font>",
+        "reloadable": true
+	},
+	"conflicts": [
+        "rival-patch34",
+		"zero-ping-all-toolbox-patch100",
+		"skill-prediction",
+        "ngsp",
+        "ngsp_100",
+        "ngsp_92",
+        "ping-remover",
+        "ping"
+    ],
+	"disableAutoUpdate": false,
+    "disabled": false
+  },
+  {
     "name": "zero-ping-all-toolbox-patch100",
 	"title": "zero-ping-all-toolbox-patch100",
 	"author": "merusira",
@@ -28,6 +55,12 @@
     ],
 	"disableAutoUpdate": false,
     "disabled": false
+  },
+  {
+    "servers": ["https://raw.githubusercontent.com/tera-private-toolbox/library/master/"],
+    "supportUrl": "https://github.com/tera-private-toolbox/library/issues",
+    "name": "library",
+    "disableAutoUpdate": false
   },
   {
     "disableAutoUpdate": false,
@@ -190,12 +223,6 @@
         "cliName": "Unicast"
     },
     "servers": ["https://raw.githubusercontent.com/tera-private-mods/unicast/master/","https://git.teragame.su/tera-private-mods/unicast/raw/master/"]
-  },
-  {
-    "servers": ["https://raw.githubusercontent.com/tera-private-toolbox/library/master/"],
-    "supportUrl": "https://github.com/tera-private-toolbox/library/issues",
-    "name": "library",
-    "disableAutoUpdate": false
   },
   {
     "disableAutoUpdate": false,
