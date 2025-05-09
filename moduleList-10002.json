@@ -71,7 +71,8 @@
         "ping-remover",
         "rival-patch34",
 		"rival-patch100",
-        "ping"
+        "ping",
+		"backstabs-manager"
     ],
 	"disableAutoUpdate": false,
     "disabled": false
@@ -98,7 +99,8 @@
         "ngsp_100",
         "ngsp_92",
         "ping-remover",
-        "ping"
+        "ping",
+		"backstabs-manager"
     ],
 	"disableAutoUpdate": false,
     "disabled": false
@@ -129,6 +131,43 @@
     "dependencies": {
         "external-interface": "https://raw.githubusercontent.com/tera-private-toolbox/external-interface/master/module.json"
     }
+  },
+  {
+    "disableAutoUpdate": false,
+    "name": "skill-prediction",
+    "author": "Pinkie Pie / many others",
+    "description": "Simulates skills client-side, eliminating ping-based delays and animation lock.",
+    "options": {
+        "cliName": "PSP",
+        "guiName": "Skill Prediction",
+        "settingsVersion": 4,
+        "settingsFile": "settings.json",
+        "settingsMigrator": "migration.js"
+    },
+    "servers": [
+        "https://raw.githubusercontent.com/tera-private-mods/skill-prediction/master/"
+    ],
+    "conflicts": [
+        "zsync",
+        "aa-zsync",
+        "cooldowns",
+        "cooldowns-master",
+        "fastfire",
+        "fastfire-master",
+        "fast-fire",
+        "fast-fire-master",
+        "lockons",
+        "lockons-master",
+        "lockons-light",
+        "lockons-light-master",
+        "ping-compensation",
+        "ping-remover",
+        "skill-prediction-master",
+        "skill-prediction-plus"
+    ],
+    "keywords": [
+        "network"
+    ]
   },
   {
     "disableAutoUpdate": false,
