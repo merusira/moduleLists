@@ -47,37 +47,6 @@
     "disableAutoUpdate": false
   },
   {
-    "name": "zero-ping-all-toolbox-patch100",
-	"title": "zero-ping-all-toolbox-patch100",
-	"author": "merusira",
-	"description": "Zero ping emulation for TERA servers running patch ~100.02.",
-    "version": "1.1.7",
-    "servers": ["https://raw.githubusercontent.com/merusira/Any_Toolbox_Zero_Ping_Emulation/master/"],
-    "supportUrl": "https://github.com/merusira/Any_Toolbox_Zero_Ping_Emulation/issues",
-    "options": {
-        "niceName": "zero-ping-all-toolbox-patch100",
-        "guiName": "zero-ping-all-toolbox-patch100",
-        "cliName": "zero-ping-all-toolbox-patch100",
-        "reloadable": true
-	},
-	"dependencies": {
-	       "library": "https://raw.githubusercontent.com/tera-private-toolbox/library/master/module.json"
-	   },
-	"conflicts": [
-        "skill-prediction",
-        "ngsp",
-        "ngsp_100",
-        "ngsp_92",
-        "ping-remover",
-        "rival-patch34",
-		"rival-patch100",
-        "ping",
-		"backstabs-manager"
-    ],
-	"disableAutoUpdate": false,
-    "disabled": false
-  },
-  {
     "disableAutoUpdate": false,
     "options": {
         "cliName": "NGSP",
@@ -140,6 +109,17 @@
     "keywords": [
         "network"
     ]
+  },
+  {
+    "name": "FixBlinksPvP",
+    "author": "KYGAS",
+    "description": "Fix broken teleports in PvP.",
+    "disableAutoUpdate": false,
+    "options": {
+        "cliName": "FBPvP",
+        "guiName": "Fix Blinks in PvP"
+    },
+    "servers": ["https://raw.githubusercontent.com/KYGAS/Fix-Teleport-Jaunt/master/"]
   },
   {
     "disableAutoUpdate": false,
@@ -313,34 +293,6 @@
     "servers": [""],
     "supportUrl": "",
     "version": "<font color='#00FFFF'>1.0.0</font>"
-  },
-  {
-    "name": "rival-patch100",
-	"title": "Rival",
-	"author": "<font color='#297229'>merusira</font>",
-	"description": "Zero ping emulation for TERA servers running patch ~100.02.",
-    "version": "<font color='#800000'>1.3.1</font>",
-    "servers": ["https://raw.githubusercontent.com/merusira/Rival-patch100/master/"],
-    "supportUrl": "https://github.com/merusira/Rival-patch100/issues",
-    "options": {
-        "niceName": "<font color='#7558cd'>Rival</font>",
-        "guiName": "<font color='#7558cd'>Rival</font>",
-        "cliName": "<font color='#7558cd'>Rival</font>",
-        "reloadable": true
-	},
-	"conflicts": [
-        "rival-patch34",
-		"zero-ping-all-toolbox-patch100",
-		"skill-prediction",
-        "ngsp",
-        "ngsp_100",
-        "ngsp_92",
-        "ping-remover",
-        "ping",
-		"backstabs-manager"
-    ],
-	"disableAutoUpdate": false,
-    "disabled": false
   },
   {
     "name": "Tera-Pkt-Item-Skill-Logger",
